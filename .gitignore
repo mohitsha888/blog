@@ -1,0 +1,38 @@
+# Dependencies
+/node_modules
+
+# Build output
+/.next
+/out
+
+# Static files
+/.vercel
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+*.code-workspace
+
+# TypeScript build output
+*.tsbuildinfo
+
+# Miscellaneous
+!.prettierrc.json
+!.eslintrc.json
