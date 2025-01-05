@@ -1,3 +1,4 @@
+```bash
 📁 blog-website/
 │
 ├── 📁 frontend/                 # Next.js frontend
