@@ -29,7 +29,7 @@ export default function Login() {
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('user', JSON.stringify(response.data));
       toast.success('Login successful!');
-      router.push('/dashboard');
+      router.push('/');
     } catch (error) {
       toast.error(error.response?.data?.message || 'Login failed');
     } finally {
